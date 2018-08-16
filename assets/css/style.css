@@ -1,9 +1,4 @@
-/*
-    Theme Name: Vesperr
-    Theme URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
+
 
 @import url('font-awesome.css');
 /* ==== overwrite bootstrap standard ==== */
@@ -130,7 +125,7 @@ blockquote {
 }
 
 .row{
-	margin-bottom:40px;
+	margin-bottom:1px;
 }
 
 .row .row, .row-fluid .row{
@@ -154,7 +149,7 @@ blockquote {
 	font-weight:700;
 	text-align:center;
 	text-shadow: 0 1px 0 #ffffff;
-	border-bottom:3px double #333;
+	border-bottom:3px solid #f93;
 	width:auto;
 	display:inline;
 }
@@ -197,13 +192,13 @@ header{
 
 header .logo {
 	float:left;
-	margin:30px 0 0;
+	margin:10px 0 0;
 }
 
 /* --- menu --- */
 
 .navigation {
-	margin:30px 0 0;
+	margin:20px 0 0;
 }
 
 .navbar {
@@ -224,7 +219,7 @@ header .logo {
   text-shadow:none;
    z-index:100;
 	outline:0;
-	font-weight:bold;
+	font-weight:normal;
 }
 
 .navbar .nav > li > a:focus,
@@ -287,8 +282,8 @@ ul.nav li ul.dropdown-menu {
 }
 
 .default {
-	background:#010101;
-	border-bottom:1px solid #222;
+	background:#558bb5;
+	border-bottom:1px solid #558bb5;
 }
 
 
@@ -316,8 +311,7 @@ nav select {
 
 
 section#intro {
-	background: #3498db;
-	position:relative;
+   position:relative;
 	width:100%;
 	height:auto;
 	margin:0;
@@ -393,19 +387,6 @@ section#intro p  {
 ======================================== */
 .roles {
 	text-align:center;
-}
-
-ul.social-profile {
-	list-style:none;
-	margin-left:0;
-}
-
-ul.social-profile li {
-	display:inline;
-}
-
-ul.social-profile li a:hover {
-	text-decoration:none;
 }
 
 
@@ -741,10 +722,13 @@ ul.the-icons {
 
 /* ================= services ============================ */
 section#services {
-	background: url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	background: url(../img/bannerBg.jpg) 10% 0 no-repeat;
 	width:100%;
 	height:auto;
 	margin:0;
+	padding-bottom: 14%;
+	
+	
 }
 
 @media (min-width: 1024px) {
@@ -1189,7 +1173,7 @@ img.pull-left{
 }
 
 .aligncenter img, img.aligncenter{
-	margin-bottom:20px;
+	margin-bottom:3px;
 }
 
 
@@ -1324,7 +1308,7 @@ img.pull-left{
 
 
 	.section {
-		padding:180px 0 40px 0;
+		padding:30px 0 10px 0;
 	}
 
 	ul.filter li {
@@ -1334,4 +1318,42 @@ img.pull-left{
 	.tweet span {
 		line-height:1.5em;
 	}
+}
+
+
+.text-img{
+	position: absolute !important;
+	top:80px;
+	left:60px;
+}
+.top-left {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+}
+
+.tl-2{
+	font-weight: bold;
+	color: #f89421 !important;
+	letter-spacing: 5px;
+	font-size: 50px;
+}
+.tl-3{
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-size: 50px;
+	color:white;
+}
+.navbar .nav > li{
+	font-size: 13px !important;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.navbar .nav > li > a:hover {
+    color:#f89421 !important
 }
