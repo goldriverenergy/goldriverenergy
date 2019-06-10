@@ -155,13 +155,11 @@ blockquote {
 }
 
 section.dark .heading h3{
-	color:#fff;
+	color: #f93;
 	text-shadow: 0 1px 0 #3a3a3a;
 	border-bottom:3px double #eee;
 	width:auto;
 	display:inline;
-
-
 }
 
 /* sub heading */
@@ -192,13 +190,13 @@ header{
 
 header .logo {
 	float:left;
-	margin:10px 0 0;
+	/* margin:10px 0 0; */
 }
 
 /* --- menu --- */
 
 .navigation {
-	margin:20px 0 0;
+	margin: 5px 0;
 }
 
 .navbar {
